@@ -11,12 +11,13 @@
 rm(list=ls(all=TRUE))                   # Delete all objects
 graphics.off()                          # close all open graphics windows
 
-library(rChoiceDialogs)
+library(tcltk2)
 
-a <- rchoose.dir(default = getwd(),caption = "Select Directory")
+a <- tk_choose.dir(default = getwd(),caption = "Select output Directory")
 setwd(a)
-
-datagarmin <- rchoose.files(default = getwd(), caption = "Select GARMIN file/s", multi = TRUE, filters="*.tcx")
+Filters <- matrix(c("Garmin tcx format", ".tcx", "All files", "*"),
+                  4, 2, byrow = TRUE)
+datagarmin <- tk_choose.files(default = getwd(), caption = "Select GARMIN file/s", multi = TRUE, filters=Filters)
 
 # loop over each garmin file
 for(i in 1:length(datagarmin)) {
