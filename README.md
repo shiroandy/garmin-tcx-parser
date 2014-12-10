@@ -3,7 +3,7 @@
 
 __Prerequisites:__
 - a working version of R (available at http://cran.r-project.org/)
-- R library package "rChoiceDialogs" - this is simply a tool for interactively choosing directories and files
+- R library package "tcltk2" - this is simple tool for interactively choosing directories and files
 - a .tcx file from a garmin device (this code has been tested with a tcx file from a Garmin Forerunner 310XT)
 
 __Output:__
@@ -20,7 +20,7 @@ __Dataframe columns:__
  6. "lat" - latitude  
  7. "latx" - interpolated latitude  
  8. "lon" - longitude  
- 9.  "lonx" - interpolated longitude  
+ 9. "lonx" - interpolated longitude  
  10. "alt" - altitude  
  11. "dist" - cumulative distance (meters)  
  12. "dist_interpol" - interpolated distance  
@@ -33,4 +33,3 @@ __Dataframe columns:__
 -------------------------------------------------------------------------
 Please direct comments/queries to Andrew J. White - shiroandy@gmail.com
 
-NOTES: Althought this code works, I plan to optimise (and simplify) it using R's XML package
