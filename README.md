@@ -33,3 +33,7 @@ __Dataframe columns:__
 -------------------------------------------------------------------------
 Please direct comments/queries to Andrew J. White - shiroandy@gmail.com
 
+You can cite this software using:
+
+White, A.J. & Kleinböhl, D. (2013). TCX Parser: An R library for parsing Garmin TCX files. Retrieved from https://github.com/shiroandy/garmin-tcx-parser.
+
