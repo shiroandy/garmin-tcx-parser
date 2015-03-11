@@ -1,4 +1,4 @@
-#garminread.R
+#Garmin TCX Parser for R
 -------------------------------------------------------------------------
 
 __Prerequisites:__
