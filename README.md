@@ -1,4 +1,4 @@
-#Garmin TCX Parser for R
+# Garmin TCX Parser for R
 -------------------------------------------------------------------------
 
 __Prerequisites:__
@@ -12,28 +12,28 @@ Dataframe in the following formats:
 - .rdata (for use within R)
 
 __Dataframe columns:__
- 1. "lap" - points at which lap marker was pressed on watch  
- 2. "time" - date and time in standard format  
- 3. "UNIXtime" - UNIX time      
- 4. "hrbpm" - heart rate (beats per minute) 
- 5. "hrbpmx" - interpolated heart rate 
- 6. "lat" - latitude  
- 7. "latx" - interpolated latitude  
- 8. "lon" - longitude  
- 9. "lonx" - interpolated longitude  
- 10. "alt" - altitude  
- 11. "dist" - cumulative distance (meters)  
- 12. "dist_interpol" - interpolated distance  
- 13. "p2p_dist" - point to point distance (from previous to current point)  
- 14. "tot_dist" - cumulative distance interpolated  
- 15. "speed" - speed (km/hr)  
+ 1. `lap` - points at which lap marker was pressed on watch  
+ 2. `time` - date and time in standard format  
+ 3. `UNIXtime` - UNIX time      
+ 4. `hrbpm` - heart rate (beats per minute) 
+ 5. `hrbpmx` - interpolated heart rate 
+ 6. `lat` - latitude  
+ 7. `latx` - interpolated latitude  
+ 8. `lon` - longitude  
+ 9. `lonx` - interpolated longitude  
+ 10. `alt` - altitude  
+ 11. `dist` - cumulative distance (meters)  
+ 12. `dist_interpol` - interpolated distance  
+ 13. `p2p_dist` - point to point distance (from previous to current point)  
+ 14. `tot_dist` - cumulative distance interpolated  
+ 15. `speed` - speed (km/hr)  
 
 
 
 -------------------------------------------------------------------------
 Please direct comments/queries to Andrew J. White - shiroandy@gmail.com
 
-You can cite this software using:
+If you use this parser as part of your research, please cite it using:
 
 White, A.J. & Kleinböhl, D. (2013). TCX Parser: An R library for parsing Garmin TCX files. Retrieved from https://github.com/shiroandy/garmin-tcx-parser.
 
